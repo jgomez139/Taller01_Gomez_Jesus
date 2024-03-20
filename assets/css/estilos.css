@@ -1,0 +1,112 @@
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #010101;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 14px 16px; 
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #cc5d4e;
+  }
+  
+  .activo {
+    background-color: #7d2b20;
+  }
+  
+  .derecha {
+    float: right;
+  }
+  
+  .miJumbo {
+    margin-top: 1rem;
+    padding: 32px 16px;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  body {
+    text-align: center; 
+
+  }
+
+  h1 {
+    margin-top: 50px;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .categorias {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .categoria {
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  .categoria img {
+    max-width: 100%;
+    height: auto;
+  }
+
+ 
+.barra-busqueda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra-busqueda .input-busqueda {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px; 
+}
+
+
+.barra-busqueda .boton {
+    padding: 8px 16px;
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.barra-busqueda .boton-azul {
+    background-color: #007bff; 
+}
+
+.barra-busqueda .boton:hover {
+    background-color: #0056b3; 
+}
